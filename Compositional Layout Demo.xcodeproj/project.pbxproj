@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0149733525A35E5200FED261 /* Compositional_Layout_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149732225A35E4F00FED261 /* Compositional_Layout_DemoApp.swift */; };
+		0149733625A35E5200FED261 /* Compositional_Layout_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149732225A35E4F00FED261 /* Compositional_Layout_DemoApp.swift */; };
+		0149733725A35E5200FED261 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149732325A35E4F00FED261 /* ContentView.swift */; };
+		0149733825A35E5200FED261 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149732325A35E4F00FED261 /* ContentView.swift */; };
+		0149733925A35E5200FED261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0149732425A35E5200FED261 /* Assets.xcassets */; };
+		0149733A25A35E5200FED261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0149732425A35E5200FED261 /* Assets.xcassets */; };
+		0149734F25A35EAA00FED261 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149734E25A35EAA00FED261 /* Home.swift */; };
+		0149735325A35EBF00FED261 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149735225A35EBF00FED261 /* Card.swift */; };
+		0149735725A35F0700FED261 /* JSONViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149735625A35F0700FED261 /* JSONViewModel.swift */; };
+		0192DD3A25A36B0000C78E44 /* Layout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192DD3925A36B0000C78E44 /* Layout1.swift */; };
+		0192DD3E25A36D0600C78E44 /* Layout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192DD3D25A36D0600C78E44 /* Layout3.swift */; };
+		0192DD4225A36D6E00C78E44 /* Layout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192DD4125A36D6E00C78E44 /* Layout2.swift */; };
+		0192DD4625A373DF00C78E44 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192DD4525A373DF00C78E44 /* ViewModifiers.swift */; };
+		280E6B42E9D2D4EB6AD8360D /* Pods_Compositional_Layout_Demo__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD23C8252777BA17FA17911 /* Pods_Compositional_Layout_Demo__iOS_.framework */; };
+		F4628E21FABC94DBD8C2F5B5 /* Pods_Compositional_Layout_Demo__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78CB51A5ADF064215B8CB73 /* Pods_Compositional_Layout_Demo__macOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0149732225A35E4F00FED261 /* Compositional_Layout_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compositional_Layout_DemoApp.swift; sourceTree = "<group>"; };
+		0149732325A35E4F00FED261 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0149732425A35E5200FED261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0149732925A35E5200FED261 /* Compositional Layout Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compositional Layout Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0149732C25A35E5200FED261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0149733125A35E5200FED261 /* Compositional Layout Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compositional Layout Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0149733325A35E5200FED261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0149733425A35E5200FED261 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0149734E25A35EAA00FED261 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0149735225A35EBF00FED261 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0149735625A35F0700FED261 /* JSONViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONViewModel.swift; sourceTree = "<group>"; };
+		0192DD3925A36B0000C78E44 /* Layout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout1.swift; sourceTree = "<group>"; };
+		0192DD3D25A36D0600C78E44 /* Layout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout3.swift; sourceTree = "<group>"; };
+		0192DD4125A36D6E00C78E44 /* Layout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout2.swift; sourceTree = "<group>"; };
+		0192DD4525A373DF00C78E44 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		099BA1EF5FD44CDEC2870CF0 /* Pods-Compositional Layout Demo (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Compositional Layout Demo (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Compositional Layout Demo (iOS)/Pods-Compositional Layout Demo (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		1C762387A6C13A9BE8F7BDA4 /* Pods-Compositional Layout Demo (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Compositional Layout Demo (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Compositional Layout Demo (macOS)/Pods-Compositional Layout Demo (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		6CD3360A8090F98D9074EEEE /* Pods-Compositional Layout Demo (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Compositional Layout Demo (macOS).release.xcconfig"; path = "Target Support Files/Pods-Compositional Layout Demo (macOS)/Pods-Compositional Layout Demo (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		8AD23C8252777BA17FA17911 /* Pods_Compositional_Layout_Demo__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Compositional_Layout_Demo__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF5505EDF47D8349798D3B4 /* Pods-Compositional Layout Demo (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Compositional Layout Demo (iOS).release.xcconfig"; path = "Target Support Files/Pods-Compositional Layout Demo (iOS)/Pods-Compositional Layout Demo (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		A78CB51A5ADF064215B8CB73 /* Pods_Compositional_Layout_Demo__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Compositional_Layout_Demo__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0149732625A35E5200FED261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E6B42E9D2D4EB6AD8360D /* Pods_Compositional_Layout_Demo__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0149732E25A35E5200FED261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4628E21FABC94DBD8C2F5B5 /* Pods_Compositional_Layout_Demo__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0149731C25A35E4F00FED261 = {
+			isa = PBXGroup;
+			children = (
+				0149732125A35E4F00FED261 /* Shared */,
+				0149732B25A35E5200FED261 /* iOS */,
+				0149733225A35E5200FED261 /* macOS */,
+				0149732A25A35E5200FED261 /* Products */,
+				AC6D536BEF833AEE24CE04EA /* Pods */,
+				9FB215070D4BDF2ECD494A0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0149732125A35E4F00FED261 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0149734725A35E8500FED261 /* View Models */,
+				0149734625A35E8100FED261 /* Models */,
+				0149734525A35E7800FED261 /* Views */,
+				0149732225A35E4F00FED261 /* Compositional_Layout_DemoApp.swift */,
+				0149732325A35E4F00FED261 /* ContentView.swift */,
+				0149732425A35E5200FED261 /* Assets.xcassets */,
+				0192DD4525A373DF00C78E44 /* ViewModifiers.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0149732A25A35E5200FED261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0149732925A35E5200FED261 /* Compositional Layout Demo.app */,
+				0149733125A35E5200FED261 /* Compositional Layout Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0149732B25A35E5200FED261 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0149732C25A35E5200FED261 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		0149733225A35E5200FED261 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0149733325A35E5200FED261 /* Info.plist */,
+				0149733425A35E5200FED261 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		0149734525A35E7800FED261 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0192DD3825A36ACE00C78E44 /* Compositional Group */,
+				0149734E25A35EAA00FED261 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0149734625A35E8100FED261 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0149735225A35EBF00FED261 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0149734725A35E8500FED261 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				0149735625A35F0700FED261 /* JSONViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		0192DD3825A36ACE00C78E44 /* Compositional Group */ = {
+			isa = PBXGroup;
+			children = (
+				0192DD3925A36B0000C78E44 /* Layout1.swift */,
+				0192DD3D25A36D0600C78E44 /* Layout3.swift */,
+				0192DD4125A36D6E00C78E44 /* Layout2.swift */,
+			);
+			path = "Compositional Group";
+			sourceTree = "<group>";
+		};
+		9FB215070D4BDF2ECD494A0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AD23C8252777BA17FA17911 /* Pods_Compositional_Layout_Demo__iOS_.framework */,
+				A78CB51A5ADF064215B8CB73 /* Pods_Compositional_Layout_Demo__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC6D536BEF833AEE24CE04EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				099BA1EF5FD44CDEC2870CF0 /* Pods-Compositional Layout Demo (iOS).debug.xcconfig */,
+				8EF5505EDF47D8349798D3B4 /* Pods-Compositional Layout Demo (iOS).release.xcconfig */,
+				1C762387A6C13A9BE8F7BDA4 /* Pods-Compositional Layout Demo (macOS).debug.xcconfig */,
+				6CD3360A8090F98D9074EEEE /* Pods-Compositional Layout Demo (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0149732825A35E5200FED261 /* Compositional Layout Demo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0149733D25A35E5200FED261 /* Build configuration list for PBXNativeTarget "Compositional Layout Demo (iOS)" */;
+			buildPhases = (
+				327C9D877CBD77C586665ABC /* [CP] Check Pods Manifest.lock */,
+				0149732525A35E5200FED261 /* Sources */,
+				0149732625A35E5200FED261 /* Frameworks */,
+				0149732725A35E5200FED261 /* Resources */,
+				27B71C3B06775408169C3322 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Compositional Layout Demo (iOS)";
+			productName = "Compositional Layout Demo (iOS)";
+			productReference = 0149732925A35E5200FED261 /* Compositional Layout Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0149733025A35E5200FED261 /* Compositional Layout Demo (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0149734025A35E5200FED261 /* Build configuration list for PBXNativeTarget "Compositional Layout Demo (macOS)" */;
+			buildPhases = (
+				AC31590E653CD14A1115C193 /* [CP] Check Pods Manifest.lock */,
+				0149732D25A35E5200FED261 /* Sources */,
+				0149732E25A35E5200FED261 /* Frameworks */,
+				0149732F25A35E5200FED261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Compositional Layout Demo (macOS)";
+			productName = "Compositional Layout Demo (macOS)";
+			productReference = 0149733125A35E5200FED261 /* Compositional Layout Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0149731D25A35E4F00FED261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0149732825A35E5200FED261 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0149733025A35E5200FED261 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 0149732025A35E4F00FED261 /* Build configuration list for PBXProject "Compositional Layout Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0149731C25A35E4F00FED261;
+			productRefGroup = 0149732A25A35E5200FED261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0149732825A35E5200FED261 /* Compositional Layout Demo (iOS) */,
+				0149733025A35E5200FED261 /* Compositional Layout Demo (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0149732725A35E5200FED261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0149733925A35E5200FED261 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0149732F25A35E5200FED261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0149733A25A35E5200FED261 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27B71C3B06775408169C3322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Compositional Layout Demo (iOS)/Pods-Compositional Layout Demo (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Compositional Layout Demo (iOS)/Pods-Compositional Layout Demo (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Compositional Layout Demo (iOS)/Pods-Compositional Layout Demo (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		327C9D877CBD77C586665ABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Compositional Layout Demo (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC31590E653CD14A1115C193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Compositional Layout Demo (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0149732525A35E5200FED261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0192DD4225A36D6E00C78E44 /* Layout2.swift in Sources */,
+				0149733725A35E5200FED261 /* ContentView.swift in Sources */,
+				0149735725A35F0700FED261 /* JSONViewModel.swift in Sources */,
+				0192DD4625A373DF00C78E44 /* ViewModifiers.swift in Sources */,
+				0149734F25A35EAA00FED261 /* Home.swift in Sources */,
+				0192DD3A25A36B0000C78E44 /* Layout1.swift in Sources */,
+				0192DD3E25A36D0600C78E44 /* Layout3.swift in Sources */,
+				0149733525A35E5200FED261 /* Compositional_Layout_DemoApp.swift in Sources */,
+				0149735325A35EBF00FED261 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0149732D25A35E5200FED261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0149733825A35E5200FED261 /* ContentView.swift in Sources */,
+				0149733625A35E5200FED261 /* Compositional_Layout_DemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0149733B25A35E5200FED261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0149733C25A35E5200FED261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0149733E25A35E5200FED261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099BA1EF5FD44CDEC2870CF0 /* Pods-Compositional Layout Demo (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NQBNW2Z7X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.gsnsg.Compositional-Layout-Demo";
+				PRODUCT_NAME = "Compositional Layout Demo";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0149733F25A35E5200FED261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF5505EDF47D8349798D3B4 /* Pods-Compositional Layout Demo (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NQBNW2Z7X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.gsnsg.Compositional-Layout-Demo";
+				PRODUCT_NAME = "Compositional Layout Demo";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0149734125A35E5200FED261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C762387A6C13A9BE8F7BDA4 /* Pods-Compositional Layout Demo (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6NQBNW2Z7X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.gsnsg.Compositional-Layout-Demo";
+				PRODUCT_NAME = "Compositional Layout Demo";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0149734225A35E5200FED261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD3360A8090F98D9074EEEE /* Pods-Compositional Layout Demo (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6NQBNW2Z7X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.gsnsg.Compositional-Layout-Demo";
+				PRODUCT_NAME = "Compositional Layout Demo";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0149732025A35E4F00FED261 /* Build configuration list for PBXProject "Compositional Layout Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0149733B25A35E5200FED261 /* Debug */,
+				0149733C25A35E5200FED261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0149733D25A35E5200FED261 /* Build configuration list for PBXNativeTarget "Compositional Layout Demo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0149733E25A35E5200FED261 /* Debug */,
+				0149733F25A35E5200FED261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0149734025A35E5200FED261 /* Build configuration list for PBXNativeTarget "Compositional Layout Demo (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0149734125A35E5200FED261 /* Debug */,
+				0149734225A35E5200FED261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0149731D25A35E4F00FED261 /* Project object */;
+}
